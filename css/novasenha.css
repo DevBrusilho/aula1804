@@ -1,0 +1,80 @@
+@charset "utf-8";
+h1{
+    margin-left: 40px;
+    border: 2px dotted rgba(228, 16, 16, 0.377);
+    background-color: lightsalmon;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,lightsalmon,lightpink);
+    color:rgba(0, 0, 0, 0.74);
+    width: 170px;
+    font-size: 15px;
+    text-align: center;
+}
+body{
+    background-color: lightpink;
+   
+}
+main{
+    display: flex;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    background-image: url(../img/cadeado.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100px,-100px);
+    width: 250px;
+}
+p{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    color: white;
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 7px;
+}
+button:hover{
+    color:blue;
+    background-color:lightgoldenrodyellow;
+    width: 95px;
+    
+}
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 6px;
+    background-color: dodgerblue;
+    color: white;
+}
+a:hover{
+    color: black;
+    background-color:rgb(150, 176, 223) ;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+footer{
+    background-color:rgb(87, 9, 54) ;
+    color: white;
+    font-weight: bolder;
+    padding: 0px;
+    border: 2px solid black;
+}
+footer > p {
+    margin: 4px;
+    justify-content: center;
+}
